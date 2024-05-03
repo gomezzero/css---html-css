@@ -1,0 +1,18 @@
+/*
+pseudo classes
+*/
+
+a:link {
+    color: #0000ff;
+}
+a:visited {
+  color: #ff00ff;
+}
+a:hover {
+  color: #00ccff;
+}
+
+
+a:active {
+  color: #ff0000;
+}

@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* salto de linea */
+.br {
+  padding: 10px;
+}
+
+/* header */
+
+header {
+  display: flex;
+  background-color: rgb(253, 253, 253);
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+
+}
+
+.img-logo {
+  width: 22%;
+}
+
+.nav-1 {
+  display: flex;
+  align-items: end;
+}
+
+.a-nav {
+  color: rgb(0, 0, 0);
+  margin: 10px;
+}
+
+/* //// */
+
+/* main */
+
+/*/ section-main /*/
+.section-main {
+
+  display: flex;
+  color: aliceblue;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  height: 37vh;
+  background-image: url(/img/img_galeria/img-tpincipal.png);
+  padding: 2.5rem;
+}
+
+/* /tipos/ */
+
+.tipos h2{
+  background-color: aqua;
+  height: 100%;
+  margin: 0 auto;
+  margin: 80px;
+}

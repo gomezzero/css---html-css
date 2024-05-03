@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.movie {
+
+    
+    width: 4000px;
+    height: 360px;
+    color: #ffffff;
+    background: url("/clase3/img/superman.png-20240320T165556Z-001/superman.png")  20px 25px/156px 286px no-repeat, url("/clase3/img/superman.png-20240320T165556Z-001/superman-volando.png") 20% 80%/cover;
+    margin: 300px;
+    padding: 7px 100px 40px 175px;
+   
+}
+
+p {
+
+    font-size: 34px;
+
+}
+
+.movi__button {
+
+    display: flex;
+    color: #ffffff;
+    font-size: 1.7em;
+    padding: 15px;
+    background-color: #be0707;
+    margin-top: 33px;
+    margin-left: 80px;
+
+}

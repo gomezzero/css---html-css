@@ -1,0 +1,11 @@
+header h2 {
+    color: red;
+}
+  
+section .myclass{
+    color: green;
+}  
+
+.myclass{
+    color: green;
+}   

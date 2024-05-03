@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* salto de linea */
+.br {
+ padding: 10px;
+}
+
+/* header */
+
+header {
+  display: flex;
+  background-color: rgb(179, 34, 49);
+  justify-content: space-between;
+  border: solid black;
+  align-items: center;
+  position: sticky;
+  left: 0;
+  top: 0;
+  padding: 5px;
+}
+
+.img-logo {
+  width: 4%;
+}
+
+.nav-1 {
+  display: flex;
+  align-items: end;
+}
+
+.a-nav {
+  color: rgb(0, 0, 0);
+  margin: 10px;
+}
+
+/* //// */
+
+/* main */
+
+/*/ section-main /*/
+.section-main {
+
+  display: flex;
+  color: aliceblue;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  height: 100vh;
+  background-image: url(/img/img_principal/producto_destacado1.jpg);
+  padding: 2.5rem;
+}
+
+.a-main {
+  flex-direction: column;
+}
+
+.hydra {
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+
+
+}
+
+.explora {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  font-size: large;
+  padding: 5px;
+}
+
+/* / tex1 / */
+
+.tex1 {
+  background-color: rgb(238, 236, 235);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+  border-top: solid 10px rgb(166, 0, 0);
+
+}
+
+.tex1 p {
+  font-size: medium;
+  font-family: "Work Sans", sans-serif;
+  
+}
+
+/* /////////////////////7///////////////////////////////7 */
+
+

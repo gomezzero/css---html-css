@@ -1,0 +1,22 @@
+
+/*
+.element {
+    height: 600px;
+    background-color: #8b008b;
+    background-position: 0px;
+    background-repeat: no-repeat;
+    background-image: url("https://i.imgur.com/tBhfy0L.jpg");
+    background-size: cover;
+    background-origin: padding-box;
+    background-clip: content-box;
+    background-attachment: fixed;
+}
+*/
+
+
+/* UPS ROCAC */
+.element {
+    height: 600px;
+    background: url("https://i.imgur.com/tBhfy0L.jpg") 0px/cover;
+}
+

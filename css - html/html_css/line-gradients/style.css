@@ -1,0 +1,132 @@
+html {
+
+    background-image:linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+fieldset {
+
+    border: none;
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+    height: 500px;
+    padding: 50px
+}
+section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+section img{
+
+    border-radius: 50%;
+    width: 50%;
+    
+}
+
+.text {
+    max-width: 500px;
+}
+
+.login-form {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px; 
+    margin: 30px; 
+}
+
+.container_input {
+
+    display: flex;
+    background-color: rgb(255, 254, 252);
+    border: none;
+    align-items: center;
+    flex-direction: row;
+    padding: 18px;
+    width: 300px;
+    height: 0px;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+.login-form input {
+
+    background-color: transparent;
+    border: none;
+    height: 20px;
+    padding: 6px;
+    margin-top: 0px;
+    width: 280px;
+
+}
+
+.container_sumit {
+
+    display: flex;
+    border:none;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.submit {
+    
+    border: none;
+    border-radius: 7px;
+    height: 30px;
+    width: 335px;
+    background-color: rgb(254, 83, 135);
+    color: rgb(255, 255, 255);
+    margin-bottom: 31px;
+
+}
+
+.horizontales {
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.horizontales div a {
+
+    text-decoration: none;
+    color: black;
+    
+}
+
+.horizontales_a {
+
+    display: flex;
+
+
+}
+
+.horizontales div input {
+
+    height: 15px;
+
+}
+
+.hr {
+
+    height: 1px;
+    background-color: black;
+    margin: 20px ;
+
+}

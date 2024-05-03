@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+p {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    color: #f1f1f1;
+    letter-spacing: 1.2px;
+
+}
+h1 {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    color: #f1f1f1;
+    letter-spacing: 1.2px;
+
+}
+h2 {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    color: #f1f1f1;
+    letter-spacing: 1.2px;
+
+}
+
+h3 {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    color: #f1f1f1;
+    letter-spacing: 1.2px;
+
+
+}
+
+h4 {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    color: #f1f1f1;
+    letter-spacing: 1.2px;
+
+}
+h5 {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    color: #f1f1f1;
+    letter-spacing: 1.2px;
+
+}
+
+h6 {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    color: #f1f1f1;
+    letter-spacing: 1.2px;
+
+}
+
+title {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    color: #f1f1f1;
+    letter-spacing: 1.2px;
+
+}
+
+
+
+button {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    background-color: #f1f1f1; 
+    letter-spacing: 1.2px;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 15px;
+    cursor: pointer; 
+}
+
+button:hover {
+    border-right: 5px solid blue;
+    border-left: 5px solid red ;
+    background-color: #706f6f73;
+}
+
+a {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    color: #f1f1f1;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+
+}
+
+body {
+    margin: 10px;
+    
+}
+
+/* video */
+.contenedor-video {
+    position: fixed; /* Fija la posición del contenedor en la ventana del navegador */
+    top: 0; /* Lo coloca en la parte superior de la ventana */
+    left: 0; /* Lo coloca en la parte izquierda de la ventana */
+    z-index: -1; /* Asegura que el video esté detrás de otros elementos */
+    
+}
+
+/* Estilos específicos para el video dentro del contenedor */
+.video-fondo {
+    object-fit: cover; /* Ajusta el tamaño del video para que cubra completamente su contenedor */
+
+}
+
+/* video fin */
+
+/* header */
+header {
+    background-color: brown; 
+}
+
+/* nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.botones-nav {
+    display: flex;
+
+}
+
+.botones-nav a {
+    display: flex;
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.iconos-nav {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.iconos-nav a {
+    padding: 10px;
+}
+
+/* nav fin*/
+
+.contenedor-imgen-central {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imgen-central {
+    background-image: url("/src/img/imgen-central.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-clip: content-box;      /* importante darle el mismo tamaño al height y el width */
+    height: 250px; 
+    width: 250px; 
+    border-radius: 10px; 
+    
+}
+
+/* header fin*/
+
+/* section class="conocenos" */
+.conocenos {
+    height: 490px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.conocenos article {
+    margin: 150px;
+    text-align: center;
+    
+}
+
+/* izquierdo */
+.contenedor-1 {
+    margin-bottom: 40px;
+
+}
+
+
+.izquierdo-1 {
+    background-image: url("/src/img/izquierdo-1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-clip: content-box;     
+    height: 180px; 
+    width: 180px;
+    border-radius: 10px; 
+
+}
+
+.izquierdo-2 {
+    background-image: url("/src/img/izquierdo-2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-clip: content-box;     
+    height: 180px; 
+    width: 180px;
+    border-radius: 10px; 
+
+}
+
+/* derecho */
+
+.derecho-1 {
+    background-image: url("/src/img/izquierdo-1.jpg");
+
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-clip: content-box;     
+    height: 180px; 
+    width: 180px;
+    border-radius: 10px; 
+   
+
+}
+
+.derecho-2 {
+    background-image: url("/src/img/izquierdo-2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-clip: content-box;     
+    height: 180px; 
+    width: 180px;
+    border-radius: 10px; 
+
+}
+
+
+/* section class="conocenos" fin*/
+
+/* galeria */
+
+.galeria {
+    height: 490px;
+    
+}
+
+.galeria article div {
+    margin-right: 20px;
+}
+
+.contenedor-galeria {
+    height: 490px;
+    width:  100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.galeria-imgane-1 {
+    background-image: url("/src/img/imgen-central.jpg");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-clip: content-box;     
+    height: 250px; 
+    width: 250px;
+    
+
+}
+
+.galeria-imgane-2 {
+    background-image: url("/src/img/izquierdo-1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-clip: content-box;     
+    height: 250px;
+    width: 250px;
+}
+
+.galeria-imgane-3 {
+    background-image: url("/src/img/imgen-central.jpg");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-clip: content-box;     
+    height: 250px; 
+    width: 250px;
+
+}
+
+.galeria-imgane-4 {
+    background-image: url("/src/img/izquierdo-1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-clip: content-box;     
+    height: 250px;
+    width: 250px;
+
+}
+/* texto-galeria */
+.texto-galeria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.texto-galeria span {
+    color: #f1f1f1;
+    padding-bottom: 30px;
+    font-size: x-small;
+
+}
+
+.texto-galeria a {
+    padding-top: 20px;
+    text-decoration: underline;
+
+}
+
+/* galeria fin*/
+
+/* albun */ 
+/* sinplifico (copio galeria y cambio las imagenes y nombres de clases */
+.albunes {
+    height: 490px;
+    
+}
+
+.albunes article div {
+    margin-right: 20px;
+}
+
+.contenedor-albun {
+    height: 490px;
+    width:  100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.albun-imgane-1 {
+    background-image: url("/src/img/albun-1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-clip: content-box;     
+    height: 250px; 
+    width: 250px;
+    
+
+}
+
+.albun-imgane-2 {
+    background-image: url("/src/img/albun-2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-clip: content-box;     
+    height: 250px;
+    width: 250px;
+}
+
+.albun-imgane-3 {
+    background-image: url("/src/img/albun-1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-clip: content-box;     
+    height: 250px; 
+    width: 250px;
+
+}
+
+.albun-imgane-4 {
+    background-image: url("/src/img/albun-2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-clip: content-box;     
+    height: 250px;
+    width: 250px;
+
+}
+/* texto-albun */
+.texto-albun {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.texto-albun span {
+    color: #f1f1f1;
+    padding-bottom: 30px;
+    font-size: x-small;
+
+}
+
+.texto-albun a {
+    padding-top: 20px;
+    text-decoration: underline;
+
+}
+
+/* albun fin*/
+
+/* tour */
+
+.tour {
+    height: 490px;
+}
+
+.fechas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.fecha {
+    display: flex;
+    width: 100%;
+    padding-bottom: 5px;
+    align-items: center;    
+    justify-content: space-between;
+    Border: solid   #f1f1f1 1px;
+
+}
+
+
+
+/* texto-1-tour */
+.texto-1-tour {
+    color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+/* tour fin*/
+
+/* footer */
+
+footer {
+    margin-top: 50px;
+    height: 500px;
+
+}
+
+/* section class="info-adicional" */
+.info-adicional {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.info-adicional div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+
+}
+
+/* section class="iconos" */
+
+.iconos {
+    display: flex;
+    justify-content: center;
+
+}
+
+.iconos img {
+    margin-left: 10px;
+}
+
+/* section class="lista" */
+.lista {
+    color: #f1f1f1;
+    display: flex;
+    justify-content:space-between;
+    padding-top: 30px;
+
+}
